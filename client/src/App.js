@@ -9,7 +9,7 @@ import Register from "./pages/Register";
 
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
   return (
     <Router>
     <Topbar />

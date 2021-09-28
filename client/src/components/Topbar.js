@@ -2,14 +2,14 @@ import './topbar.css';
 import { Link } from "react-router-dom";
 
 export default function Topbar() {
-    const user = false;
+    const user = true;
     return (
         <div className="top">
              <div className="topLeft">
-                <i className="topIcon fab fa-facebook-square"></i>
-                <i className="topIcon fab fa-instagram-square"></i>
-                <i className="topIcon fab fa-pinterest-square"></i>
-                <i className="topIcon fab fa-twitter-square"></i>
+                <i className="topIcon fab fa-facebook"></i>
+                <i className="topIcon fab fa-instagram"></i>
+                <i className="topIcon fab fa-pinterest"></i>
+                <i className="topIcon fab fa-twitter"></i>
             </div>
             <div className="topCenter">
                 <ul className="topList">
@@ -41,7 +41,7 @@ export default function Topbar() {
                     <Link className="link" to="/settings">
                     <img
                     className="topImg"
-                    src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    src="https://images.unsplash.com/photo-1602677415790-8bda81c6fed2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80"
                     alt="navbar"
                     />
                     </Link>
