@@ -1,5 +1,5 @@
 import Topbar from "./components/Topbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Single from "./components/Single";
 import Write from "./pages/Write";

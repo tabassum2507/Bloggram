@@ -13,7 +13,7 @@ export default function Single() {
             alt=""
           />
           <h1 className="singlePostTitle">
-            Lorem ipsum dolor
+            kuch toh h
             <div className="singlePostEdit">
               <i className="singlePostIcon far fa-edit"></i>
               <i className="singlePostIcon far fa-trash-alt"></i>
